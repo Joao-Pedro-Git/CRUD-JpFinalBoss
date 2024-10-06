@@ -1,15 +1,18 @@
 <?php
-
-// Verifica se o usuário está logado
+// Verifica se o usuário está logado e define um tempo limite para expirar a sessão
 session_start();
 
-if (!isset($_SESSION['loggedin'])) {
+if (!isset($_SESSION['loggedin']) || (time() - $_SESSION['last_activity'] > 600)) { // 600 segundos = 10 minutos
+    session_unset(); // Remove todas as variáveis de sessão
+    session_destroy(); // Destroi a sessão
     header('Location: login.php'); // Redireciona para a página de login
     exit;
 }
 
-// O restante do seu código para listar os usuários aqui
+// Atualiza a última atividade da sessão
+$_SESSION['last_activity'] = time();
 
+// O restante do seu código para listar os usuários aqui
 
 // Conexão com o banco de dados
 include("config.php");
