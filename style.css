@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    /* Cor de fundo mais clara */
+}
+
+header {
+    margin-bottom: 20px;
+    /* Espaço abaixo do header */
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+    /* Transição suave para o background */
+}
+
+.navbar.scrolled {
+    background-color: #007bff;
+    /* Cor de fundo quando a navbar rola */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    /* Cor do texto dos links */
+    transition: color 0.3s;
+    /* Transição suave para a cor */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+    /* Cor ao passar o mouse */
+}
+
+.navbar-nav .nav-link.active {
+    color: red !important;
+    /* Cor do link ativo */
+    font-weight: bold;
+    /* Negrito para destaque */
+}
+
+.container {
+    margin-top: 30px;
+    /* Margem superior para o conteúdo */
+}
