@@ -1,9 +1,8 @@
 # CRUD de Usuários
 
+![Imagem do Projeto](https://github.com/user-attachments/assets/1a663d3e-0d62-41db-aa7c-11757da2e160)
+
 Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de usuários. A aplicação permite cadastrar, listar, editar e excluir usuários, utilizando PHP e MySQL para manipulação de dados.
-
-![Imagem do Projeto](https://github.com/user-attachments/assets/ceebadfc-ae8b-4438-b718-bdb7d28d47bb)
-
 
 ## Funcionalidades
 
@@ -11,6 +10,8 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de 
 - **Listagem de usuários cadastrados**
 - **Edição de informações de usuários**
 - **Exclusão de usuários**
+- **Interface Responsiva** - Adaptável para uso em diferentes tamanhos de tela.
+- **Animações com AOS** - Efeitos visuais ao rolar a página.
 
 ## Tecnologias Utilizadas
 
@@ -18,7 +19,8 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de 
 - **MySQL**
 - **HTML/CSS**
 - **Bootstrap** (para estilização)
-- **JavaScript** (opcional para melhorias)
+- **JavaScript**
+- **AOS** (Animate on Scroll) para animações suaves ao rolar a página
 
 ## Como Usar
 
@@ -30,7 +32,3 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de 
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request.
-
-## Licença
-
-Este projeto é licenciado sob a MIT License - consulte o arquivo [LICENSE](LICENSE) para detalhes.
