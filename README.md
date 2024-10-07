@@ -2,8 +2,8 @@
 
 Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de usuários. A aplicação permite cadastrar, listar, editar e excluir usuários, utilizando PHP e MySQL para manipulação de dados.
 
+![Imagem do Projeto](https://github.com/user-attachments/assets/1a663d3e-0d62-41db-aa7c-11757da2e160)
 
-https://github.com/user-attachments/assets/1a663d3e-0d62-41db-aa7c-11757da2e160
 
 ## Funcionalidades
 
